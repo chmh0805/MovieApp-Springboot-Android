@@ -1,0 +1,329 @@
+!SESSION 2021-02-23 15:24:49.600 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-23 15:25:12.093
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-23 15:25:12.093
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37c45154,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55300b93,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-23 15:25:23.194
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\i'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:21.260
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:21.260
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5720bd61[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:21.283
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:21.366
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-02-23 15:27:30.420
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-23 15:27:30.420
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cbd35f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bdd6203,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:30.724
+!MESSAGE Boot LS startup time from start to initialized: 9432ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:31.420
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iOWqSzXcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:31.423
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:31.426
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:31.427
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:31.427
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iOWqSzXc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:35.781
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:35.784
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:35.785
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:35.785
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:35.806
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:40.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:40.436
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:40.449
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:40.450
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:40.469
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:41.424
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:41.432
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:41.448
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:41.449
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:41.461
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.237
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.246
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.295
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.296
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.308
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.693
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.714
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.730
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.731
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:42.744
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.120
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.142
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.143
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.150
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.622
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.630
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.647
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.648
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:27:43.655
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:28:40.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:28:40.165
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:28:40.174
+!MESSAGE buffering callback sts4.classpath.iOWqSzXc Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:28:40.174
+!MESSAGE executing callback sts4.classpath.iOWqSzXc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:28:40.180
+!MESSAGE executing callback sts4.classpath.iOWqSzXc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:15.689
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iOWqSzXc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:15.690
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iOWqSzXc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:15.690
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:15.691
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iOWqSzXc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:30.819
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:30.819
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5720bd61[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:30.820
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:32.971
+!MESSAGE Boot LS startup time from start to initialized: 2150ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.039
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.beVPcpMBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.040
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.040
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.041
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.041
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.042
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.beVPcpMB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.054
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.066
+!MESSAGE buffering callback sts4.classpath.beVPcpMB Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.066
+!MESSAGE executing callback sts4.classpath.beVPcpMB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:33.089
+!MESSAGE executing callback sts4.classpath.beVPcpMB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:35.783
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.beVPcpMB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:35.784
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.beVPcpMB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:35.784
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:35.785
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.beVPcpMB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:36.862
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:36.863
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5720bd61[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:36.863
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.915
+!MESSAGE Boot LS startup time from start to initialized: 2051ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.997
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nGPHEghNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.998
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.999
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.999
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.999
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:38.999
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nGPHEghN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:39.014
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:39.026
+!MESSAGE buffering callback sts4.classpath.nGPHEghN Springboot-MovieApiServer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:39.027
+!MESSAGE executing callback sts4.classpath.nGPHEghN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 15:30:39.048
+!MESSAGE executing callback sts4.classpath.nGPHEghN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 18:21:40.391
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nGPHEghN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 18:21:40.432
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nGPHEghN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 18:21:40.433
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-23 18:21:40.433
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nGPHEghN => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-02-23 18:21:41.391
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
