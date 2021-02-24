@@ -18,13 +18,16 @@ public interface MovieAPI {
     Call<List<Movie>> initMovies();
 
     @GET("/movie/download/1")
-    Call<Yts> downloadMovies();
+    Call<Yts> downloadMovies1();
+
+    @GET("/movie/download/2")
+    Call<Yts> downloadMovies2();
 
     @DELETE("api/movie/{id}")
-    Call<Void> deleteMovie(@Path("id") long id);
+    Call<String> deleteMovie(@Path("id") long id);
 
     @DELETE("api/movie/All")
-    Call<Void> deleteAll();
+    Call<String> deleteAll();
 
     Gson gson = new GsonBuilder().setLenient().create();
 
