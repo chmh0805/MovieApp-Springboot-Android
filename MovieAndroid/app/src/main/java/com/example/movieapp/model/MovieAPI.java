@@ -31,7 +31,7 @@ public interface MovieAPI {
 
     Gson gson = new GsonBuilder().setLenient().create();
 
-    public static final Retrofit retrofit = new Retrofit.Builder()
+    Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("http://10.0.2.2:8000/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build();

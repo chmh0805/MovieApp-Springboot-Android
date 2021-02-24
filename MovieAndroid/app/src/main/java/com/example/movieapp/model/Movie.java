@@ -1,5 +1,12 @@
 package com.example.movieapp.model;
 
+import android.util.Log;
+import android.widget.ImageView;
+
+import androidx.databinding.BindingAdapter;
+
+import com.bumptech.glide.Glide;
+
 public class Movie {
     private long id;
     private String url;
@@ -9,6 +16,14 @@ public class Movie {
     private long runtime;
     private String summary;
     private String medium_cover_image;
+
+    @BindingAdapter({"medium_cover_image"})
+    public static void loadImage(ImageView view, String thumbnail) {
+        Glide.with(view.getContext())
+                .load(thumbnail)
+                .into(view);
+    }
+
     public long getId() {
         return id;
     }

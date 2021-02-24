@@ -57,7 +57,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     @Override
     public void onBindViewHolder(@NonNull MovieViewHolder holder, int position) {
         holder.movieItemBinding.setMovie(movies.get(position));
-        holder.setItem(movies.get(position));
+//        holder.setItem(movies.get(position));
     }
 
     @Override
@@ -106,9 +106,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
             });
         }
 
-        public void setItem(Movie movie) {
-            getGlide(ivMovie, movie.getMedium_cover_image());
-        }
+//        public void setItem(Movie movie) {
+//            getGlide(ivMovie, movie.getMedium_cover_image());
+//        }
 
         private void getGlide(ImageView iv, String url) {
             Glide
